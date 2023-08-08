@@ -51,11 +51,7 @@ class _PetDetailScreenState extends State<PetDetailScreen> {
               ),
               
             ),
-            Text(
-                widget.date,
-                   style: kSourceSansProBold.copyWith(
-                            fontSize: SizeConfig.blockSizeHorizontal! *4,color: kBlack),
-              ),
+            
              Padding(
               
                padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 10),
